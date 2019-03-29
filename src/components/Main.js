@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
+import BlogGrid from './blogs/BlogGrids';
 
 class Main extends Component {
-    render(){
+    render() {
         return (
             <div>
-                <h1>Main Container</h1>
+                <BlogGrid/>
             </div>
         )
     }
 }
-
 export default Main;

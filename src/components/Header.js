@@ -1,16 +1,14 @@
 import React, {Component} from 'react';
 
-class Header extends Component {
-    render(){
-        return(
-            <div className="App-header">
-                <nav className="header">
-                    <a href="#">Destinations</a>
-                    <a href="#">Photo Stories</a>
-                </nav>
-            </div>
-        )
-    };
-}
+const header = (props) => {
+    return(
+        <div className="App-header">
+            <nav className="header">
+                <a className="header-link" href="#">Destinations</a>
+                <a className="header-link" href="#">Photo Stories</a>
+            </nav>
+        </div>
+    )
+};
 
-export default Header;
+export default header;

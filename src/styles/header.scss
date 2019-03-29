@@ -1,0 +1,20 @@
+.App-header {
+    background-color: #333;
+    color: #fff;
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-link {
+        color: #fff;
+        font-size: 12px;
+        padding: 20px 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
